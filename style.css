@@ -1,0 +1,16 @@
+
+body {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+}
+
+section {
+    border: 1px solid white;
+
+}
+
+section p:first-of-type {
+    font-weight: bold;
+}
+
+
