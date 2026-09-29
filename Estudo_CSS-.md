@@ -99,10 +99,34 @@ Apos isso coloque chaves {} e a propriedade que quer mudar no meio delas, Exempl
 
 ### *Widht*
 - Define a largura de um elemento na tela
-- Exemplo :  ```css
-  .botao {
+```css
+ .botao {
   width: 150px;
 }
-  ```
+```
 
+### *Height*
+-  Atua da mesma forma que o Widht porem na definição da altura de um elemento na tela
+```css
+.botao {
+  height: 50px;
+}
+```
+
+### *Padding*
+- o Padding cria um espaço entre o conteúdo e a borda do próprio elemento fazendo um preenchimento interno.
+```css
+.botao {
+  width: 180px;        
+  padding: 12px 0px; 
+``` 
+
+### *Margin*
+- Margin e o espaço externo do elemento criando um espaço entre um elemento e outro.
+```css
+.botao {
+  /* Topo | Direita | Baixo | Esquerda */
+  margin: 20px 10px 20px 10px;
+}
+```
 
