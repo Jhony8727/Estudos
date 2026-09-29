@@ -1,15 +1,15 @@
 
-body {
+#telaPrincipal {
   color: rgb(255, 255, 255);
   background-color: #000000;
 }
 
-section {
+.games-section {
     border: 1px solid white;
 
 }
 
-section p:first-of-type {
+.p1 {
     font-weight: bold;
 }
 
