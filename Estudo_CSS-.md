@@ -42,3 +42,59 @@ strong {
   font-weight: bold;
 }``` Serve para definir a espessura, o peso ou a intensidade do traço de um texto  
 
+## Seletores CSS
+
+### *O que são seletores css?*
+_R:_  Os **seletores CSS** são padrões ou instruções usados para encontrar e escolher os elementos HTML de uma página web que você deseja estilizar.
+
+
+
+
+### *Quais os principais seletores?*
+_R:_ 
+- **Seletor de Elemento (ou Tag):** Alvo direto em tags HTML específicas.
+    - **Exemplo:** `p { color: gray; }` (afeta todos os parágrafos).
+    
+    
+- **Seletor de Classe:** Alvo em elementos que possuem um atributo `class`. É o mais recomendado para reutilização de código. Começa com ponto `.`.
+    
+    
+	- **Exemplo:** `.card { background: white; }` (afeta todos os elementos com `class="card"`).
+- **Seletor de ID:** Alvo em um elemento único com um atributo `id`. Deve ser usado apenas uma vez por página. Começa com `#`.
+
+
+	- **Exemplo:** `#logo { width: 150px; }` (afeta apenas o elemento com `id="logo"`).
+
+- **Seletor Universal:** Seleciona todos os elementos da página de uma só vez. Representado por `*`.
+    - **Exemplo:** `* { box-sizing: border-box; }` (afeta a página inteira).
+
+
+
+### *Como Usar estes seletores?*
+
+_R:_ No arquivo HTML, adicione tags e de nome a elas usando class (Para vários elementos) e ID (Para elemento único )
+```html
+<h1 id="titulo">Olá Mundo</h1>
+<p class="texto">Este é um parágrafo.</p>
+```
+
+Ai no arquivo css vc chama estes elementos usando as seguintes regras:
+- Para TAGS escreva o próprio nome dela Ex : `p`
+- Para Classe coloque um ponto antes Ex: `.classe`
+- Para Id coloque um hashtag antes Ex: `#id`
+
+Apos isso coloque chaves {} e a propriedade que quer mudar no meio delas, Exemplo:
+
+```css
+/* Alvo: tag h1 com id="titulo" */
+#titulo {
+  color: blue;
+}
+
+/* Alvo: tag p com class="texto" */
+.texto {
+  font-size: 18px;
+}
+```
+
+
