@@ -130,3 +130,11 @@ Apos isso coloque chaves {} e a propriedade que quer mudar no meio delas, Exempl
 }
 ```
 
+### *Border Radious*
+- Border Radious serve para arredondar os cantos de um elemento
+```css
+.botao {
+  border-radius: 8px; 
+}
+```
+
