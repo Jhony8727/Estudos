@@ -97,4 +97,12 @@ Apos isso coloque chaves {} e a propriedade que quer mudar no meio delas, Exempl
 }
 ```
 
+### *Widht*
+- Define a largura de um elemento na tela
+- Exemplo :  ```css
+  .botao {
+  width: 150px;
+}
+  ```
+
 
