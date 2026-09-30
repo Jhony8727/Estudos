@@ -138,3 +138,9 @@ Apos isso coloque chaves {} e a propriedade que quer mudar no meio delas, Exempl
 }
 ```
 
+### *Shadow-box*
+- Adiciona um efeito de sombra ou ao redor ou dentro do elemento.
+```css
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+```
+
