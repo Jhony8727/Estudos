@@ -4,7 +4,7 @@
 }
 
 .games-section {
-  border: 1px solid white;
+  box-shadow: 0 6px 8px rgb(255, 255, 255);
   margin: 15px;
   padding: 10px;
   width: 80%;
