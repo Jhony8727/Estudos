@@ -144,3 +144,14 @@ Apos isso coloque chaves {} e a propriedade que quer mudar no meio delas, Exempl
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 ```
 
+
+### *O que é main axis, cross axis?*
+_R:_ Main axis (eixo principal): a direção em que os itens são colocados, um do lado do outro.
+Cross axis (eixo transversal): o eixo perpendicular ao principal, ou seja, a "outra direção".
+
+
+### *O que é a propriedade: Display? E Como usar ? "Principalmente o valor ' *flex* ' " *
+_R:_A propriedade display define como um elemento se comporta no layout da página: se ele ocupa a linha inteira, se fica ao lado de outros, se aparece ou não, e como organiza os filhos dentro dele. o Display flex transforma o elemento em um container flexível, que organiza os filhos em um eixo.
+
+
+
