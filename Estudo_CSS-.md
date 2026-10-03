@@ -154,4 +154,14 @@ Cross axis (eixo transversal): o eixo perpendicular ao principal, ou seja, a "ou
 _R:_A propriedade display define como um elemento se comporta no layout da página: se ele ocupa a linha inteira, se fica ao lado de outros, se aparece ou não, e como organiza os filhos dentro dele. o Display flex transforma o elemento em um container flexível, que organiza os filhos em um eixo.
 
 
+### O flex-direction define a direção e o eixo principal em que os elementos filhos são organizados dentro de um contêiner flexível.
+Valores Principais
+- row: Padrão. Alinha os itens na horizontal, da esquerda para a direita.
+- row-reverse: Alinha os itens na horizontal, mas na ordem inversa (da direita para a esquerda).
+- column: Alinha os itens na vertical, de cima para baixo.
+- column-reverse: Alinha os itens na vertical, mas de baixo para cima.
+
+O justify-content serve alinhar e distribuir o espaço entre os elementos na direção principal do contêiner
+e o align-items serve para alinhar os elementos filhos no sentido oposto ao do fluxo principal
+
 
